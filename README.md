@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Yashraj0405/DSA/tree/master/0001-two-sum) |
+| [0031-next-permutation](https://github.com/Yashraj0405/DSA/tree/master/0031-next-permutation) |
 | [0075-sort-colors](https://github.com/Yashraj0405/DSA/tree/master/0075-sort-colors) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Yashraj0405/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0136-single-number](https://github.com/Yashraj0405/DSA/tree/master/0136-single-number) |
@@ -16,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0031-next-permutation](https://github.com/Yashraj0405/DSA/tree/master/0031-next-permutation) |
 | [0075-sort-colors](https://github.com/Yashraj0405/DSA/tree/master/0075-sort-colors) |
 | [0125-valid-palindrome](https://github.com/Yashraj0405/DSA/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Yashraj0405/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
