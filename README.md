@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/Yashraj0405/DSA/tree/master/0001-two-sum) |
 | [0031-next-permutation](https://github.com/Yashraj0405/DSA/tree/master/0031-next-permutation) |
+| [0048-rotate-image](https://github.com/Yashraj0405/DSA/tree/master/0048-rotate-image) |
 | [0075-sort-colors](https://github.com/Yashraj0405/DSA/tree/master/0075-sort-colors) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Yashraj0405/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/Yashraj0405/DSA/tree/master/0128-longest-consecutive-sequence) |
@@ -67,4 +68,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/Yashraj0405/DSA/tree/master/0128-longest-consecutive-sequence) |
+## Math
+|  |
+| ------- |
+| [0048-rotate-image](https://github.com/Yashraj0405/DSA/tree/master/0048-rotate-image) |
+## Matrix
+|  |
+| ------- |
+| [0048-rotate-image](https://github.com/Yashraj0405/DSA/tree/master/0048-rotate-image) |
 <!---LeetCode Topics End-->
