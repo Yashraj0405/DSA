@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/Yashraj0405/DSA/tree/master/0001-two-sum) |
 | [0015-3sum](https://github.com/Yashraj0405/DSA/tree/master/0015-3sum) |
+| [0018-4sum](https://github.com/Yashraj0405/DSA/tree/master/0018-4sum) |
 | [0031-next-permutation](https://github.com/Yashraj0405/DSA/tree/master/0031-next-permutation) |
 | [0048-rotate-image](https://github.com/Yashraj0405/DSA/tree/master/0048-rotate-image) |
 | [0075-sort-colors](https://github.com/Yashraj0405/DSA/tree/master/0075-sort-colors) |
@@ -23,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/Yashraj0405/DSA/tree/master/0015-3sum) |
+| [0018-4sum](https://github.com/Yashraj0405/DSA/tree/master/0018-4sum) |
 | [0031-next-permutation](https://github.com/Yashraj0405/DSA/tree/master/0031-next-permutation) |
 | [0075-sort-colors](https://github.com/Yashraj0405/DSA/tree/master/0075-sort-colors) |
 | [0125-valid-palindrome](https://github.com/Yashraj0405/DSA/tree/master/0125-valid-palindrome) |
@@ -52,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/Yashraj0405/DSA/tree/master/0015-3sum) |
+| [0018-4sum](https://github.com/Yashraj0405/DSA/tree/master/0018-4sum) |
 | [0075-sort-colors](https://github.com/Yashraj0405/DSA/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/Yashraj0405/DSA/tree/master/0169-majority-element) |
 ## Divide and Conquer
