@@ -38,36 +38,34 @@ class Solution {
 
         //Optimal
         List<Integer> result = new ArrayList<>();
-        int counter1 = 0 , counter2 = 0 , element1 = Integer.MIN_VALUE , element2 = Integer.MIN_VALUE, 
-        maxCount1 = 0 ,maxCount2 = 0, mini = nums.length / 3 + 1;;
+        int element1 = Integer.MIN_VALUE, element2 = Integer.MIN_VALUE , count1 = 0, count2 = 0,
+        maxCount1 = 0 , maxCount2 = 0 , mini = nums.length/3 +1 ;
 
         for(int i = 0 ; i < nums.length ; i++){
-
-            if(counter1 == 0 && nums[i] != element2){
+            if(count1 == 0 && nums[i] != element2){
                 element1 = nums[i];
-                counter1 = 1;
+                count1 = 1;
             }
-            else if(counter2 == 0 & nums[i] != element1){
+            else if(count2 == 0 && nums[i] != element1){
                 element2 = nums[i];
-                counter2 = 1;
+                count2 = 1;
             }
-            else if(nums[i] == element1) counter1++;
-            else if(nums[i] == element2) counter2++;
-            else {
-                counter1--;
-                counter2--;
+            else if(element1 == nums[i]) count1++;
+            else if(element2 == nums[i]) count2++;
+            else{
+                count1--;
+                count2--;
             }
         }
 
         for(int num : nums){
-            if(num == element1)maxCount1++;
-            if(num == element2)maxCount2++;
+            if(element1 == num) maxCount1++;
+            if(element2 == num) maxCount2++;
         }
 
-        if(maxCount1 >= mini) result.add(element1);
-        if(maxCount2 >= mini && element1 != element2) result.add(element2);
+        if(maxCount1  >= mini) result.add(element1);
+        if(maxCount2  >= mini && element1 != element2) result.add(element2);
 
         return result;
-
     }
 }
