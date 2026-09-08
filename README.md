@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/Yashraj0405/DSA/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/Yashraj0405/DSA/tree/master/0018-4sum) |
 | [0031-next-permutation](https://github.com/Yashraj0405/DSA/tree/master/0031-next-permutation) |
+| [0035-search-insert-position](https://github.com/Yashraj0405/DSA/tree/master/0035-search-insert-position) |
 | [0048-rotate-image](https://github.com/Yashraj0405/DSA/tree/master/0048-rotate-image) |
 | [0056-merge-intervals](https://github.com/Yashraj0405/DSA/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/Yashraj0405/DSA/tree/master/0075-sort-colors) |
@@ -51,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0035-search-insert-position](https://github.com/Yashraj0405/DSA/tree/master/0035-search-insert-position) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Yashraj0405/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0704-binary-search](https://github.com/Yashraj0405/DSA/tree/master/0704-binary-search) |
 ## String
