@@ -19,10 +19,10 @@ class Solution {
         return left;
     }
 
-    private boolean canFinish(int[] piles, int k, int h) {
+    private boolean canFinish(int[] piles, int mid, int h) {
         int hours = 0;
         for (int pile : piles) {
-            hours += (pile + k - 1) / k; // ceiling division without Math.ceil
+            hours += (pile + mid - 1) / mid; // ceiling division without Math.ceil
         }
         return hours <= h;
     }
