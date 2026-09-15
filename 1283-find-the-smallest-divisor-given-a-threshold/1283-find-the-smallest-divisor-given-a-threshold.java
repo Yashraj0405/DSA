@@ -1,6 +1,10 @@
 class Solution {
     public int smallestDivisor(int[] nums, int threshold) {
-        int left = 1 , right = Arrays.stream(nums).max().getAsInt(),min = Integer.MAX_VALUE;
+        int left = 1 ,min = Integer.MAX_VALUE;
+        int right = 0;
+        for(int num : nums){
+            right = Math.max(right,num);
+        }
         while(left <= right){
             int mid = (left + right) / 2;
             if(calculateDivisor(nums,mid,threshold)){
