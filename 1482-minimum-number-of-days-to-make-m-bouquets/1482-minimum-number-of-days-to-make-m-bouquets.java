@@ -1,7 +1,17 @@
 class Solution {
     public int minDays(int[] bloomDay, int m, int k) {
         if(m * k > bloomDay.length) return -1;
-        int left = Arrays.stream(bloomDay).min().getAsInt() , right = Arrays.stream(bloomDay).max().getAsInt(), day = -1;
+        int minDay = Integer.MAX_VALUE;
+        int maxDay = Integer.MIN_VALUE;
+
+        // Find the minimum and maximum bloom day
+        for (int bloom : bloomDay) {
+            minDay = Math.min(minDay, bloom);
+            maxDay = Math.max(maxDay, bloom);
+        }
+
+        // Binary search between minDay and maxDay
+        int left = minDay, right = maxDay, day = -1;
 
         while(left <= right){
             int mid = (left + right)/2;
