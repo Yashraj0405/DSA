@@ -6,7 +6,6 @@ class Solution {
             if(missing < k) left = mid + 1;
             else right = mid - 1;
         }
-
         return left + k; //right + 1 + k
     }
 }
