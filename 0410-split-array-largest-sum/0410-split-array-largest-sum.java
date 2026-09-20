@@ -14,13 +14,11 @@ class Solution {
                 left = mid + 1;
             }
         }
-
         return left;
     }
 
     private boolean canSplit(int[] nums, int mid, int k){
-        int subArray = 1;
-        int currentSum = 0;
+        int subArray = 1, currentSum = 0;
 
         for(int num : nums){
             if(currentSum + num > mid){
@@ -31,7 +29,6 @@ class Solution {
                 currentSum += num;
             }
         }
-
         return true;
     }
 }
